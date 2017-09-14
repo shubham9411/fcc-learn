@@ -1,0 +1,13 @@
+{
+  "name": "@shubham9411/learn-npm",
+  "version": "1.0.1",
+  "description": "Project created for learning NPM",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Shubham Pandey",
+  "license": "MIT",
+  "dependencies": {},
+  "repository": "https://github.com/shubham9411/learn-npm.git"
+}
