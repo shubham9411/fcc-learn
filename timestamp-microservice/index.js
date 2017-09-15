@@ -12,7 +12,7 @@ app.get('/:id',function(req,res){
 	day = d.getDate()
 	unixtime = parseInt(d.getTime()/1000)
 	result['unix'] = unixtime
-	result['natural'] = month + ' ' + day + ', ' + year
+	result['natural'] = month == null ? null : month + ' ' + day + ', ' + year
 	res.send(result)
 })
 app.use(express.static(process.argv[3]||path.join(__dirname)));
