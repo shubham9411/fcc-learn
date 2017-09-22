@@ -3,3 +3,4 @@ patchwork
 node_modules/
 expressworks/
 fcc-expressworks/
+mongo/data/
